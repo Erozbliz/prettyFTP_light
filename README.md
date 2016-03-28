@@ -7,9 +7,9 @@ Permet d'avoir un affichage design
 
 
 ##Installation
-1 ) Télécharger l'archive : prettyFTP_light_v1.7z
-2 ) Copier les fichiers dans un dossier 
-3 ) Mettez vos fichiers dans le dossier "your_file_here"
+1 ) Télécharger l'archive : prettyFTP_light_v1.7z<br />
+2 ) Copier les fichiers dans un dossier <br />
+3 ) Mettez vos fichiers dans le dossier "your_file_here"<br />
 
 
 
