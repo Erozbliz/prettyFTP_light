@@ -79,7 +79,13 @@
             echo $arg1['extension'], "\n";
             echo $arg1['filename'], "\n";*/
             $File = pathinfo($arg1);
-            return $File['filename'].'.'.$File['extension'];
+            if (isset($File['extension'])) {
+              //si c'est un dossier
+              return $File['filename'].'.'.$File['extension'];
+            }else{
+              return $File['filename'];
+            }
+            
           }
 
 
