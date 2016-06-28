@@ -12,3 +12,9 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+span.mobile { display: none }
+@media (max-width: 640px) {
+    span.mobile { display: block }
+    span.desktop { display: none }
+}

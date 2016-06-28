@@ -94,13 +94,14 @@
           $files = glob($dirname."*");
           //var_dump(filesize($files[0]));
           foreach($files as $file) {
-            echo '<li class="collection-item avatar">
+            echo '
+            <li class="collection-item avatar">
               <i class="material-icons circle teal">folder</i>
               <span class="title">'.filePathParts($file).'</span>
-              <p>'.formatSizeUnits(filesize($file)).'  &nbsp
+              <p>'.formatSizeUnits(filesize($file)).'  &nbsp <br>
                  '.date("F d Y H:i:s.",filectime($file)).'
               </p>
-              <a href="'.$file.'" target="_blank" class="secondary-content waves-effect waves-light btn"><i class="material-icons right">system_update_alt</i> Download</a>
+              <a href="'.$file.'" target="_blank" class="secondary-content waves-effect waves-light btn"><i class="material-icons right">system_update_alt</i><span class="desktop">Download<span></a>
             </li>';
           }
 
